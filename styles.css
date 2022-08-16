@@ -1,0 +1,92 @@
+body {
+    background-color: #ffe6f2;
+    color: #006600;
+    font-family: "Book Antiqua", serif, "Times New Roman";
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.myH2 {
+    font-size: 1.3em;
+    text-align: center;
+    font-style: italic;
+}
+
+.homeImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.ulMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006600;
+}
+  
+.liMenu {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #ffe6f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Change the link color on hover */
+li a:hover {
+    background-color: #004d00;
+}
+
+.active {
+    background-color: #004d00;
+}
+
+.h2AboutUs {
+    font-size: 1.3em;
+    text-align: left;
+    font-style: italic;
+}
+
+.ulValues {
+    padding: 0;
+
+}
+
+/* Put flower as symbol for list */
+@counter-style single-emoji {
+  system: cyclic;
+  symbols: "\1F33C"; /* unicode code point */
+  suffix: " ";
+}
+
+.single-counter-rule {
+  list-style-type: single-emoji;
+}
+
+.flowerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 240px;
+    border-radius: 10%;
+}
+
+.tableImages {
+    text-align:center; 
+    align-items:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+    border-spacing:20px;        
+}
+
