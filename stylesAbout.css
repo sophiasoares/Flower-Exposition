@@ -15,13 +15,6 @@ h1 {
     font-style: italic;
 }
 
-.homeImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 .ulMenu {
     list-style-type: none;
     margin: 0;
@@ -51,10 +44,24 @@ li a:hover {
     background-color: #004d00;
 }
 
+.ulValues {
+    padding: 0;
 
+}
 
+/* Put flower as symbol for list */
+@counter-style single-emoji {
+  system: cyclic;
+  symbols: "\1F33C"; /* unicode code point */
+  suffix: " ";
+}
 
+.single-counter-rule {
+  list-style-type: single-emoji;
+}
 
-
-
-
+.h2AboutUs {
+    font-size: 1.3em;
+    text-align: left;
+    font-style: italic;
+}

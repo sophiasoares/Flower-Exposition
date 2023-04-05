@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Contact - House of Flowers</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="stylesContact.css">
+</head>
 <body>
     <!-- Menu bar -->
     <div>
@@ -17,18 +18,20 @@
 
     <h1>Contact us</h1>
     <h2 class="myH2">We would love to hear from you</h2> <br>
-    <form action="contact.php" method="post" style="margin: auto; width: 380px;"> 
+    <form action="https://formspree.io/f/mdojknbv" method="post" style="margin: auto; width: 380px;"> 
         <label for="name">Name:</label> 
         <input type="text" name="name" id="name" size="30"> <br> <br>
         <label for="email">Email:</label> 
-        <input type="text" name="email" id="email" size="30"> <br> <br>
+        <input type="text" name="email" id="email" size="30" placeholder="youremail@gmail.com"> <br> <br>
+        <label for="tel">Telephone:</label>
+        <input type="tel" name="tel" id="tel" placeholder="+49 123 12345678"> <br> <br>
         <label for="message">Message:</label> <br>
-        <textarea name="message" id="message" rows="10" cols="60"></textarea> <br> <br>
+        <textarea name="message" id="message" rows="8" cols="60" placeholder="Your description"></textarea> <br> <br>
         <input type="submit" value="Send Message">
     </form>
-
     <div class="footer">
         <p>&copy; Copyright 2022</p>
     </div>
 </body>
-</head>
+</html>
+

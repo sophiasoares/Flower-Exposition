@@ -1,0 +1,103 @@
+body {
+    background-color: #ffe6f2;
+    color: #006600;
+    font-family: "Book Antiqua", serif, "Times New Roman";
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.myH2 {
+    font-size: 1.3em;
+    text-align: center;
+    font-style: italic;
+}
+
+.ulMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006600;
+}
+  
+.liMenu {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #ffe6f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Change the link color on hover */
+li a:hover {
+    background-color: #004d00;
+}
+
+.active {
+    background-color: #004d00;
+}
+
+/* Overlay for when user hovers on image */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 260px;
+    opacity: 0;
+    transition: .3s ease;
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10%;
+  }
+
+.container:hover .overlay {
+    opacity: 1;
+  }
+
+.text {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;   
+    font-size: 20px;
+    font-style: bold;
+}
+
+
+/* For each cell */
+.tableImages {
+    text-align:center; 
+    align-items:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+    border-spacing:20px;        
+}
+
+/* For each image */
+.flowerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 240px;
+    border-radius: 10%;
+}

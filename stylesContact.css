@@ -1,8 +1,13 @@
+input, textarea {
+    font-family: "Book Antiqua", serif, "Times New Roman";
+    font-size: 15px;
+}
+
 body {
     background-color: #ffe6f2;
     color: #006600;
     font-family: "Book Antiqua", serif, "Times New Roman";
-}
+} 
 
 h1 {
     font-size: 2em;
@@ -15,13 +20,6 @@ h1 {
     font-style: italic;
 }
 
-.homeImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 .ulMenu {
     list-style-type: none;
     margin: 0;
@@ -29,11 +27,11 @@ h1 {
     overflow: hidden;
     background-color: #006600;
 }
-  
+
 .liMenu {
     float: left;
 }
-  
+
 li a {
     display: block;
     color: #ffe6f2;
@@ -41,7 +39,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-  
+
 /* Change the link color on hover */
 li a:hover {
     background-color: #004d00;
@@ -50,11 +48,4 @@ li a:hover {
 .active {
     background-color: #004d00;
 }
-
-
-
-
-
-
-
 
